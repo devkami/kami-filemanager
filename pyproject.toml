@@ -1,9 +1,21 @@
 [tool.poetry]
 name = "kami-filemanager"
 version = "0.1.0"
-description = "KAMICO Library to deal with local files and folders"
+description = "KAMICO Python Library to deal with local files and folders"
+license="GNU 3.0"
 authors = ["Maicon de Menezes <maicon@kamico.com.br>"]
 readme = "README.md"
+packages = [{include = "kami_filemanager"}]
+classifiers = [  
+  "Topic :: Desktop Environment :: File Managers",
+  "Programming Language :: Python :: 3.10",      
+  "Natural Language :: English",
+  "Development Status :: 4 - Beta",
+]
+
+[tool.poetry.urls]
+"Source" = "https://github.com/devkami/kami-filemanager"
+"Bug Tracker" = "https://github.com/devkami/kami-filemanager/issues" 
 
 [tool.poetry.dependencies]
 python = "^3.10"
